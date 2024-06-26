@@ -1,0 +1,132 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Style */
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.flex {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.v-flex {
+    flex-direction: column;
+}
+
+.v-center {
+    align-items: center;
+}
+
+.x-center {
+    justify-content: center;
+}
+
+.full {
+    height: 100%;
+}
+
+.gap {
+    gap: 2rem;
+}
+
+header {
+    margin: 0 160px;
+    min-height: 80vh;   
+}
+
+.wrapper {
+    margin: 100px 160px;
+}
+
+.bg {
+    background-color: #1F2937;
+}
+
+/* Header */
+
+.logo{
+    font-size: 1.5rem;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.menu-head {
+    font-size: 1rem;
+    color: #F9FAF8;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0 1rem 0 0;
+}
+
+.menu-head:last-child {
+    margin: 0 0;
+}
+
+a.header {
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 0.8rem 1rem;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header p {
+    color: #F9FAF8;
+}
+
+.placeholder {
+    background: #b5b5b6;
+    min-height: 16rem;
+}
+
+/* Main */
+
+.box {
+    border: 2px solid blue;
+    border-radius: 1rem;
+    width: 60%;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+}
+
+.box-text {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
