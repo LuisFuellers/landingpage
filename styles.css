@@ -64,8 +64,16 @@ header {
     margin: 100px 160px;
 }
 
+.big {
+    margin: 100px 300px;
+}
+
 .bg {
     background-color: #1F2937;
+}
+
+.bg-light {
+    background-color: #E5E7EB;
 }
 
 /* Header */
@@ -129,4 +137,55 @@ header p {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    text-align: end;
+    font-size: 1.2rem;
+}
+
+.cta {
+    background-color: #3882F6;
+    padding: 2rem;
+    border-radius: 1rem;
+    padding: 60px 140px;
+    
+}
+
+.remove-m {
+    margin: 0;
+}
+
+.button-light {
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+    border: #F9FAF8 solid 1px;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+.footer-text {
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.light {
+    color: #F9FAF8;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sub {
+    margin-top: 1rem;
 }
